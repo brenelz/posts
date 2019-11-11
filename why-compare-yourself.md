@@ -1,8 +1,7 @@
 ---
-extends: _layouts.post
-section: postContent
 title: "Why Compare Yourself?"
-date: "August 6, 2017"
+date: "2017-08-06"
+path: "/posts/why-compare-yourself"
 ---
 
 Something that has been on my mind lately is how often I am comparing myself to others. I don't feel that this is something I've always done, but seems to have ramped up over time. Frankly this doesn't even have that much to do with software development as much as life in general.

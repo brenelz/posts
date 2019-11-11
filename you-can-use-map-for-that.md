@@ -1,8 +1,7 @@
 ---
-extends: _layouts.post
-section: postContent
 title: "You can use map for that?"
-date: "December 12, 2016"
+date: "2016-12-12"
+path: "/posts/you-can-use-map-for-that"
 ---
 
 Lately it seems like I've been learning a lot about functions such as map, filter, reduce, and zip to transform data.
@@ -12,13 +11,15 @@ These core functions can be useful in many different circumstances (reactive pro
 Let's go through each of these functions super quick.
 
 ### Map
+
 Map is used when you want to transform each value in an array into some entirely different value. This takes the most simplest form of:
 
 `var addOne = (x) => x + 1 // add one to every element in array`
 
-`[1, 2, 3].map(addOne) // [2, 3, 4]` 
+`[1, 2, 3].map(addOne) // [2, 3, 4]`
 
 ### Filter
+
 Filter is used to choose which elements of an existing array should be present in the new array by doing a simple conditional check.
 
 `var onlyEven = (x) => x % 2 === 0 // only keep even numbers`
@@ -26,6 +27,7 @@ Filter is used to choose which elements of an existing array should be present i
 `[1, 2, 3].map(onlyEven) // [2]`
 
 ### Reduce
+
 Reduce is a bit more complicated, but basically it takes a group of elements, and combines them into one value. A good example of a reduce is a sum function. Reduce takes two parameters (a callback, and an initial value).
 
 `var sum = (acc, current) => acc + current`
@@ -33,6 +35,7 @@ Reduce is a bit more complicated, but basically it takes a group of elements, an
 `[1, 2, 3].reduce(sum, 0) // 6`
 
 ### Zip
+
 Zip does exactly what it says. If you imagine a zipper you know it combines teeth from both sides. It essentially allows you turn turn this:
 
 `['foo', 'bar'], ['apples', 'grapes'] ]`

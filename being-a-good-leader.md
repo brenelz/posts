@@ -1,8 +1,7 @@
 ---
-extends: _layouts.post
-section: postContent
 title: "Thoughts on Being a Good Leader"
-date: "February 24, 2018"
+date: "2018-02-24"
+path: "/posts/being-a-good-leader"
 ---
 
 What it means to be a leader and how I can become a better one is something that has been on my mind the past year. Probably more than a lot of the technical challenges of programming. This wouldn't have been something on my mind in the past because I have worked at smaller companies, but my current job has stretched me in that way.
@@ -10,6 +9,7 @@ What it means to be a leader and how I can become a better one is something that
 I feel like there are different ways to lead, and in some ways you need multiple leaders in different areas to make a successful team.
 
 ## So how do I lead?
+
 I feel like one of my greatest strengths is as a mentor. I'm not sure exactly what it is but I feel like my personality lends itself to this. I like to think I'm approachable and do not act in a condescending way. I am super self-aware of this because it is pretty prevalent in the tech industry and I choose to be different.
 
 I also feel like I have a way of reading people and explaining concepts in a way that suits them at the moment. I try to eliminate any fluff or noise and give them just enough so they get unstuck, learn something, along with having new things to explore. This works at any skill level whether a junior or senior.

@@ -1,8 +1,7 @@
 ---
-extends: _layouts.post
-section: postContent
 title: "Quick Tip: Promise Chains"
-date: "November 19, 2016"
+date: "2016-11-19"
+path: "/posts/promise-chain-tips"
 ---
 
 It's pretty common to see promise chains in your Javascript code.
@@ -44,4 +43,3 @@ getNHLTeams()
 &bull; Add a catch in case something fails<br />
 
 You can see in the above example that nesting is avoided completely. This logic also contains no business logic but instead focuses on coordinating the order of which things need to run.
-

@@ -1,8 +1,7 @@
 ---
-extends: _layouts.post
-section: postContent
 title: "Squish the Internet Explorer Z-Index Bug"
-date: "December 3, 2016"
+date: "2016-12-03"
+path: "/posts/squash-your-zindex-bugs"
 ---
 
 ## The Problem
@@ -25,11 +24,11 @@ One day a long time ago I was working on a website; I had everything working fin
 
 The absolutely positioned div had a z-index of 1000, but I soon found out that IE doesn’t use z-index properly. I came across an article that explained the flaw in detail:
 
-> *In Internet Explorer positioned elements generate a new stacking context, starting with a z-index value of 0. Therefore z-index doesn’t work correctly*
+> _In Internet Explorer positioned elements generate a new stacking context, starting with a z-index value of 0. Therefore z-index doesn’t work correctly_
 
 The above article does not directly contain a workaround but in the comments a fellow said the following:
 
-> *giving the parent element a higher z-index actual fixes the bug*
+> _giving the parent element a higher z-index actual fixes the bug_
 
 I then used something like the following code on my site:
 

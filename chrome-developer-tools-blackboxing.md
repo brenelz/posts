@@ -1,8 +1,7 @@
 ---
-extends: _layouts.post
-section: postContent
 title: "Blackboxing Scripts in Chrome Developer Tools"
-date: "November 27, 2016"
+date: "2016-11-27"
+path: "/posts/chrome-developer-tools-blackboxing"
 ---
 
 If you are anything like me, you spend a good deal of your time in chrome developer tools trying to debug your Javascript and CSS.
