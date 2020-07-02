@@ -4,7 +4,7 @@ date: "2020-07-01"
 path: "/posts/building-high-performing-organizations"
 ---
 
-Lately I've been reading a book called <a href="https://www.amazon.ca/Accelerate-Software-Performing-Technology-Organizations-ebook/dp/B07B9F83WM/r">Accelerate - Building and Scaling High Peforming Technology Organizations</a>.
+Lately I've been reading a book called <a href="https://www.amazon.ca/Accelerate-Software-Performing-Technology-Organizations-ebook/dp/B07B9F83WM/r">Accelerate - Building and Scaling High Performing Technology Organizations</a>.
 
 Some memorable quotes from the book are:<br /><br />
 
