@@ -98,7 +98,7 @@ cd my-app
 yarn dev
 ```
 
-<p><img src="/images/posts/next-structure.png" alt="Next project structure"/></p>
+<p><img width="250" src="/images/posts/next-structure.png" alt="Next project structure"/></p>
 
 </div>
 <div style="flex: 1; overflow: scroll">
@@ -110,12 +110,12 @@ cd my-app
 yarn dev
 ```
 
-<p><img src="/images/posts/remix-structure.png" alt="Remix project structure"/></p>
+<p><img width="250" src="/images/posts/remix-structure.png" alt="Remix project structure"/></p>
 
 </div>
 </div>
 
-You also see a screenshot of what the project structure looks like. Most of the time you will be modifying files in the `pages` or `app` folder for each framework. They also have their specific configs (`next.config.js`,`remix.config.js`).
+You also see a screenshot of what the project structure looks like. Most of the time you will be modifying files in the `pages` or `app` folder for each framework. They also have their specific configs (`next.config.js`, `remix.config.js`).
 
 One thing a bit different with Remix is that it exposes the whole html document and doesn't hide anything from you. You will see within the `app` folder there is a `entry.client.tsx` and `entry.server.tsx`. More interesting however is the `root.tsx`. This functions as the layout for the entire app and even allows you to disable JavaScript! The Remix team is high on progressive enhancement so the app still works even without JavaScript. In Next layout is a bit more complex and you have to modify a special `_app.tsx` file.
 
