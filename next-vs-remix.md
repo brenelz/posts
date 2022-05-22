@@ -1,6 +1,6 @@
 ---
 title: Next vs Remix (Full Stack Framework Quickstart)
-date: "2022-05-23"
+date: "2022-05-22"
 path: "/posts/next-vs-remix"
 ---
 
