@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "The Power Of Netlify"
 date: "2020-08-05"
 path: "/posts/the-power-of-netlify"

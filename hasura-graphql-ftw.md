@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Hasura GraphQL FTW"
 date: "2020-07-08"
 path: "/posts/hasura-graphql-ftw"

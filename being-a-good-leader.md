@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Thoughts on Being a Good Leader"
 date: "2018-02-24"
 path: "/posts/being-a-good-leader"

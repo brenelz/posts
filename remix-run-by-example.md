@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Remix Run By Example"
 date: "2021-05-12"
 path: "/posts/remix-run-by-example"

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "My Vision for a Software Company"
 date: "2017-07-12"
 path: "/posts/vision-for-software-company"

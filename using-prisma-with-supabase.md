@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Using Prisma with Supabase"
 date: "2021-06-05"
 path: "/posts/using-prisma-with-supabase"

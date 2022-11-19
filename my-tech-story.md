@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "My Tech Story"
 date: "2020-07-22"
 path: "/posts/my-tech-story"

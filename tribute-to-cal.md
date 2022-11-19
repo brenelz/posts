@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Tribute to Cal (my brother)"
 date: "2017-09-05"
 path: "/posts/tribute-to-cal"

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "You can use map for that?"
 date: "2016-12-12"
 path: "/posts/you-can-use-map-for-that"

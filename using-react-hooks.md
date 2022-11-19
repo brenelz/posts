@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Using React Hooks"
 date: "2020-08-12"
 path: "/posts/using-react-hooks"

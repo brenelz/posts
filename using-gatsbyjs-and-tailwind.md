@@ -1,7 +1,8 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Using GatsbyJS and Tailwind CSS"
 date: "2019-11-11"
-path: "/posts/using-gatsbyjs-and-tailwind-css"
+path: "/posts/using-gatsbyjs-and-tailwind"
 ---
 
 Lately I've been intrigued by this thing called the <strong>JAMstack</strong>. It stands for JavaScript, APIs, and Markup.

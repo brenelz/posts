@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Building Teams Of Developers"
 date: "2020-07-28"
 path: "/posts/building-teams-of-developers"

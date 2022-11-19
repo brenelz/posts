@@ -1,7 +1,8 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Building a Todo List with Supabase and NextJS"
 date: "2021-04-10"
-path: "/posts/todo-list-supabase-nextjs"
+path: "/posts/todo-list-with-supabase-and-nextjs"
 ---
 
 So recently I've been feeling super productive using nextjs for spinning up simple projects. The part that always trips me up in projects is when I need to reach for a database. There are so many options like Hasura, Fauna, Mongo, etc. I've played with most of these but recently I've been exploring supabase. It seems so easy so I've been wanting to try it out on a project.

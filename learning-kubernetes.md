@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Learning Kubernetes"
 date: "2020-06-25"
 path: "/posts/learning-kubernetes"

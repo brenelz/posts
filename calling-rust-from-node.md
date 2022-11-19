@@ -1,7 +1,8 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Call Rust From Node"
 date: "2022-02-14"
-path: "/posts/call-rust-from-node"
+path: "/posts/calling-rust-from-node"
 ---
 
 Lately I've been a bit interested in Rust. I did a project at work to speed up our build and SWC (written in Rust) was the answer.

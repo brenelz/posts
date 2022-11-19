@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Squish the Internet Explorer Z-Index Bug"
 date: "2016-12-03"
 path: "/posts/squash-your-zindex-bugs"

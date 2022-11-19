@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Blackboxing Scripts in Chrome Developer Tools"
 date: "2016-11-27"
 path: "/posts/chrome-developer-tools-blackboxing"

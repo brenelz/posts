@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Why Compare Yourself?"
 date: "2017-08-06"
 path: "/posts/why-compare-yourself"

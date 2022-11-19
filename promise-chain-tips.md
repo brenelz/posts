@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Quick Tip: Promise Chains"
 date: "2016-11-19"
 path: "/posts/promise-chain-tips"

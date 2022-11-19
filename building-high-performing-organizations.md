@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/PostLayout.astro
 title: "Building and Scaling High Performing Technology Organizations"
 date: "2020-07-01"
 path: "/posts/building-high-performing-organizations"
