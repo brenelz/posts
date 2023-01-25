@@ -1,13 +1,13 @@
 ---
-layout: ../../layouts/PostLayout.astro
 title: "Quick Tip: Promise Chains"
 date: "2016-11-19"
-path: "/posts/promise-chain-tips"
+slug: "promise-chain-tips"
 ---
 
 It's pretty common to see promise chains in your Javascript code.
 
-There are a few things to keep in mind that will make your code more readable and more bulletproof.
+There are a few things to keep in mind that will make your code more readable
+and more bulletproof.
 
 ## A Bad Example
 
@@ -39,8 +39,9 @@ getNHLTeams()
 
 **A couple best practises are:**
 
-&bull; Use named functions instead of anonymous ones<br />
-&bull; Avoid nesting multiple promises<br />
-&bull; Add a catch in case something fails<br />
+&bull; Use named functions instead of anonymous ones<br /> &bull; Avoid nesting
+multiple promises<br /> &bull; Add a catch in case something fails<br />
 
-You can see in the above example that nesting is avoided completely. This logic also contains no business logic but instead focuses on coordinating the order of which things need to run.
+You can see in the above example that nesting is avoided completely. This logic
+also contains no business logic but instead focuses on coordinating the order of
+which things need to run.

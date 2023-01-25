@@ -1,11 +1,13 @@
 ---
-layout: ../../layouts/PostLayout.astro
 title: "Remix Run By Example"
 date: "2021-05-12"
-path: "/posts/remix-run-by-example"
+slug: "remix-run-by-example"
 ---
 
-So this post is a bit similar to another one I did which is called <a href="https://www.brenelz.com/posts/todo-list-supabase-nextjs">Builing a Todo List with Supabase and Nextjs</a>. I will basically be rebuilding this in a new paid js framework called <a href="https://remix.run/">Remix Run</a>.
+So this post is a bit similar to another one I did which is called
+<a href="https://www.brenelz.com/posts/todo-list-supabase-nextjs">Builing a Todo
+List with Supabase and Nextjs</a>. I will basically be rebuilding this in a new
+paid js framework called <a href="https://remix.run/">Remix Run</a>.
 
 If you need a refresher of what we built last time look below.
 
@@ -13,11 +15,14 @@ If you need a refresher of what we built last time look below.
 
 ## Getting started
 
-In order to get started with Remix you will need to run `npm init remix` and follow the prompts including putting in your license key. Yes this is paid software which is maybe a bit unusual but I think its worth it.
+In order to get started with Remix you will need to run `npm init remix` and
+follow the prompts including putting in your license key. Yes this is paid
+software which is maybe a bit unusual but I think its worth it.
 
 ### Setting up our env variables
 
-Now this is something that works out of the box in nextjs but you have to do a bit of manual setup with remix.
+Now this is something that works out of the box in nextjs but you have to do a
+bit of manual setup with remix.
 
 ```
 npm install dotenv
@@ -31,7 +36,8 @@ SUPABASE_URL=
 SUPABASE_ANON_KEY=
 ```
 
-The next bit of configuration is to add the dotenv loader toward the top of `app/entry.server.jsx`
+The next bit of configuration is to add the dotenv loader toward the top of
+`app/entry.server.jsx`
 
 ```
 import ReactDOMServer from "react-dom/server";
@@ -49,7 +55,8 @@ npm install @supabase/supabase-js
 
 Now restart remix server which will be `npm run dev`
 
-Then in an `app/utils` directory add a file called `initSupabase.js` with the following contents.
+Then in an `app/utils` directory add a file called `initSupabase.js` with the
+following contents.
 
 ```
 import { createClient } from "@supabase/supabase-js";
@@ -60,14 +67,15 @@ const supabase = createClient(
 );
 
 export default supabase;
-
 ```
 
 ## Reading Todos
 
-Head on over to `app/routes/index.jsx` where we will do the more interesting coding.
+Head on over to `app/routes/index.jsx` where we will do the more interesting
+coding.
 
-Remix has this concept of a loader which is similar to `getServerSideProps` in nextjs. To load our todos its this simple:
+Remix has this concept of a loader which is similar to `getServerSideProps` in
+nextjs. To load our todos its this simple:
 
 ```
 import { json, useRouteData } from "remix";
@@ -103,9 +111,11 @@ export default function Index() {
 
 ## Data mutations (Create, Update, Delete)
 
-I think this is the thing I find the coolest, but it is also a throwback to how we used to do data mutations before React.
+I think this is the thing I find the coolest, but it is also a throwback to how
+we used to do data mutations before React.
 
-Let's create a Remix Form (uppercased) which is basically just a supercharged &lt;form&gt;
+Let's create a Remix Form (uppercased) which is basically just a supercharged
+&lt;form&gt;
 
 ```
 import { Form, json, useRouteData } from "remix";
@@ -116,9 +126,14 @@ import { Form, json, useRouteData } from "remix";
 </Form>
 ```
 
-Now this is a bit of a mental model shift. You might wonder where the onChange, and onClick is that you normally have to do with React. Well in fact forms can package this data up <strong>without individual state fields per form input</strong>. The cool thing is we could have 10 fields and they will all get serialized super easily.
+Now this is a bit of a mental model shift. You might wonder where the onChange,
+and onClick is that you normally have to do with React. Well in fact forms can
+package this data up <strong>without individual state fields per form
+input</strong>. The cool thing is we could have 10 fields and they will all get
+serialized super easily.
 
-It will basically do an ajax post request to this same route with all your data in it.
+It will basically do an ajax post request to this same route with all your data
+in it.
 
 We can use it with an action method as follows:
 
@@ -138,7 +153,8 @@ export async function action({ request }) {
 
 To access the field value from the post request we use `body.get("newTodo")`
 
-Now you can fill out the delete and complete functionality using your old school form knowledge.
+Now you can fill out the delete and complete functionality using your old school
+form knowledge.
 
 ```
 <Form replace method="put">
@@ -178,4 +194,5 @@ export async function action({ request }) {
 }
 ```
 
-Taking a look back at the code I had to write, this does seem a bit simpler than Nextjs.
+Taking a look back at the code I had to write, this does seem a bit simpler than
+Nextjs.

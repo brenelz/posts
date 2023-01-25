@@ -1,8 +1,7 @@
 ---
-layout: ../../layouts/PostLayout.astro
 title: "Using Zod To Validate Api Responses"
 date: "2023-01-09"
-path: "/posts/using-zod-to-validate-api-responses"
+slug: "using-zod-to-validate-api-responses"
 ---
 
 <a href="https://github.com/colinhacks/zod">Zod</a> is the latest tech I have
