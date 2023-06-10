@@ -1,7 +1,7 @@
 ---
 title: "React Server Components With Next.js"
 date: "2023-06-10"
-slug: "starting-an-online-meetup"
+slug: "react-server-components-with-next"
 ---
 
 So as you probably know I recently ran a meetup where I talked about React
