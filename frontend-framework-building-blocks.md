@@ -1,6 +1,6 @@
 ---
 title: "Frontend Framework Building Blocks"
-date: "2023-09-26"
+date: "2023-09-25"
 slug: "framework-building-blocks"
 ---
 
