@@ -1,7 +1,7 @@
 ---
 title: "Frontend Framework Building Blocks"
 date: "2023-09-25"
-slug: "framework-building-blocks"
+slug: "frontend-framework-building-blocks"
 ---
 
 So as many of you know I have been thrust into working with <a href="https://angular.io/">Angular</a> the last six months or so. I feel that at this point I have a intuition for what I like and don't like. This is my attempt at verbalizing why I tend to like <a href="https://react.dev/">React</a> and more recently <a href="https://www.solidjs.com/">Solid</a> over frameworks like Angular.
